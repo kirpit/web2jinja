@@ -6,7 +6,7 @@ Place this file under your web2py application/modules.
 
 Usage
 ======
-######
+```python
 # myapp/controllers/somecontroller.py
 
 from applications.myapp.modules.web2jinja import Web2Jinja
@@ -16,7 +16,7 @@ def index():
     return {
         'foo': 'bar',
     }
-######
+```
 
 will render same view file i.e. myapp/views/somecontroller/index.html
 by using Jinja2!
