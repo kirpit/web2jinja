@@ -4,9 +4,10 @@
 https://github.com/kirpit/web2jinja
 
 web2py controller decorator that returns Jinja2 compiled template string.
-Place this file under your web2py application/modules.
 
 Example usage:
+Place this file under your web2py applications/myapp/modules.
+
 ```python
 # myapp/controllers/somecontroller.py
 
@@ -19,7 +20,7 @@ def index():
     }
 ```
 
-will render same view file i.e. myapp/views/somecontroller/index.html
+will render same view file i.e. applications/myapp/views/somecontroller/index.html
 by using Jinja2!
 
 ==================================================
