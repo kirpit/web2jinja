@@ -11,7 +11,7 @@ Usage
 
 from applications.myapp.modules.web2jinja import Web2Jinja
 
-@Web2Jinja
+@Web2Jinja(request)
 def index():
     return {
         'foo': 'bar',
